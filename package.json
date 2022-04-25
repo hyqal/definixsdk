@@ -1,5 +1,5 @@
 {
-  "name": "definixssdk",
+  "name": "@ehyqal/definixssdk",
   "license": "MIT",
   "version": "0.0.11",
   "description": "🛠 An SDK for building applications on top of definixswap.",
@@ -8,7 +8,10 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/hyqal/definixssdk.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyqal/definixssdk.git"
+  },
   "keywords": [
     "pancakeswap",
     "definixswap",
@@ -48,7 +51,7 @@
     "@types/big.js": "^4.0.5",
     "@types/jest": "^24.0.25",
     "babel-plugin-transform-jsbi-to-bigint": "^1.3.1",
-    "tsdx": "^0.12.3"
+    "tsdx": "^0.14.1"
   },
   "engines": {
     "node": ">=10"
@@ -57,5 +60,13 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/hyqal/definixssdk/issues"
+  },
+  "homepage": "https://github.com/hyqal/definixssdk#readme",
+  "directories": {
+    "test": "test"
+  },
+  "author": ""
 }
